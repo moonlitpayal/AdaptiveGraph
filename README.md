@@ -28,6 +28,8 @@
 - [Benchmarks](#benchmarks)
 - [Testing](#testing)
 - [Roadmap](#roadmap)
+- [x] Abstract `Graph` interface and `AdjacencyList`
+- [x] `AdjacencyMatrix`
 - [Limitations and Honest Notes](#limitations-and-honest-notes)
 - [References and Related Work](#references-and-related-work)
 - [Author](#author)
