@@ -1,8 +1,9 @@
 import pytest
 
 from adaptivegraph.adj_list import AdjacencyList
+from adaptivegraph.adj_matrix import AdjacencyMatrix
 
-GRAPH_CLASSES = [AdjacencyList]  # Day 3: add AdjacencyMatrix here
+GRAPH_CLASSES = [AdjacencyList, AdjacencyMatrix]
 
 
 @pytest.fixture(params=GRAPH_CLASSES)
